@@ -1,0 +1,46 @@
+
+@media screen and (max-width:425px) {
+    .nav-container, 
+    .nav-container ul,
+    .banner-container,
+    .video-image-container
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-title-container{
+        
+        width: 30%;
+        padding: 50px 100px;
+    }
+    .banner-container .tree {
+        padding-left: 90px;
+        width: 400px;
+        height: 100vh;    
+    }
+    .banner-content {
+        width: 400px;
+        height: 500px;
+        background-image: url('../images/Group\ 14.png');
+        background-repeat: no-repeat;
+        padding: 10px ;
+    }
+    .banner-container{
+        width: 100%;
+        padding: 50px 0;
+    }
+    .funny-videos-container {
+        margin: 0;
+    }
+    
+
+    
+}
+@media screen and (min-width:425px) and (max-width:992px) {
+
+     
+   .banner-container{
+    flex-direction: column;
+   }
+}
