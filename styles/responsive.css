@@ -3,7 +3,8 @@
     .nav-container, 
     .nav-container ul,
     .banner-container,
-    .video-image-container
+    .video-image-container,
+    .online-games-container
     {
         flex-direction: column;
         justify-content: center;
@@ -33,6 +34,27 @@
     .funny-videos-container {
         margin: 0;
     }
+    /* .online-games-container .large-pic {
+        width: 400px;
+        height: 400px;
+    } */
+    
+    .online-games-container{
+        
+        margin: 100px 20px 50px;
+    }
+    .online-games-content{
+        margin-top: -100px;
+        text-align: center;
+    }
+    .small-pic{
+        display: none;
+    }
+    .online-games-container .large-pic{
+        width: 400px;
+        height: 400px;
+    }
+    
     
 
     
