@@ -4,7 +4,8 @@
     .nav-container ul,
     .banner-container,
     .video-image-container,
-    .online-games-container
+    .online-games-container,
+    .game-container
     {
         flex-direction: column;
         justify-content: center;
@@ -54,15 +55,24 @@
         width: 400px;
         height: 400px;
     }
-    
-    
-
-    
-}
-@media screen and (min-width:425px) and (max-width:992px) {
-
-     
-   .banner-container{
-    flex-direction: column;
-   }
+    .game-container{
+        padding: 50px 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    footer .footer-title{
+        padding: 50px 20px;
+    }
+    footer .first-list {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    footer .second-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+       
 }
