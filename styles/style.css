@@ -129,7 +129,6 @@ nav ul .follow-on {
 
 /* this is for funny videos section  */
 .funny-videos-container {
-    /* text-align: center; */
     margin: 0 200px 100px 200px;
 }
 
@@ -194,7 +193,8 @@ nav ul .follow-on {
     left: 430px;
 
 }
-.online-games-content{
+
+.online-games-content {
     margin-bottom: 200px;
 }
 
@@ -212,10 +212,69 @@ nav ul .follow-on {
     -webkit-text-fill-color: transparent;
 
 }
-.online-games-description{
+
+.online-games-description {
     color: #534C64;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px; 
-margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+/* this is footer section  */
+footer {
+    color: #FFF;
+    background: #0B0223;
+    text-align: center;
+}
+
+.footer-title {
+    display: flex;
+    padding: 100px 200px 50px;
+    justify-content: center;
+}
+
+footer .first-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+footer .first-list li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer-icon img {
+    margin: 50px 0;
+    width: 40px;
+    height: 40px;
+
+}
+
+.second-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.second-list li {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+    padding: 50px 0 100px;
+
 }
